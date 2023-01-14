@@ -1,0 +1,131 @@
+/* google fonts (poppins) */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-primary: #E02C6D;
+    --color-white: #FFFFFF;
+    --color-bg: #FFFFFF;
+    --color-bg1: #AAAAAA;
+    --color-bg2: #0A0826;
+
+    --container-width-lg: 82%;
+    --container-width-md: 90%;
+    --container-width-sm: 94%;
+
+    --transition: all 400ms ease;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background: var(--color-bg);
+}
+
+.container{
+    width: var(--container-width-lg);
+    margin: 0 auto;
+    max-width: 1250px;
+}
+
+section{
+    margin-top: 100px;
+}
+
+img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+
+nav {
+    background: transparent;
+    width: 100vw;
+    height: 5rem;
+    padding-top: 4rem;
+ }
+ 
+ .nav_container {
+     height: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .nav-logo {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #3A3A3A;
+ }
+
+ .nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.nav-menu li  {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #3A3A3A;
+}
+
+a:visited {
+    color: inherit;
+}
+
+
+/* =======header===== */
+
+header {
+    position: relative;
+    top: 5rem;
+    overflow: hidden;
+    height: 75vh;
+    margin-bottom: 4rem;
+}
+
+.header_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 14rem;
+    height: 100%;
+}
+
+.header_left h1 {
+    font-weight: 700;
+    font-size: 2.9rem;
+    color: #3A3A3A;
+}
+
+.header_left p {
+    font-weight: 600;
+    font-size: 1rem;
+    /* line-height: 24px; */
+    margin: 1rem 0 2.4rem;
+}
+
+
+/* =======Logo===== */
+.logo-container{
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+}
+
+.logo-container img {
+    width: 99.12px;
+    height: 39.61px;
+    object-fit: contain;
+}
